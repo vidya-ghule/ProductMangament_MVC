@@ -9,6 +9,8 @@ public class ProductManagmentsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProductManagmentsApplication.class, args);
 		//FOR TEST
+		//for test
+		//kkfkfk
 	}
 
 }
