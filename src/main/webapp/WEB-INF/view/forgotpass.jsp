@@ -1,7 +1,7 @@
-<jsp:include page="menu.jsp" />
+<!--<jsp:include page="menu.jsp" />-->
 
 <html>
-<title>Add user</title>
+<title>forgot password</title>
 <head>
 
 <link
@@ -16,48 +16,30 @@
 </head>
 <body>
 	<h4 style="color: brown">${msg}</h4>
-	<form action="adduserpage" method="post" onsubmit="" name="myform">
+	<form action="forgot" method="post" onsubmit="" name="myform">
 		<div class="container register">
 			<div class="row">
 				<div class="col-md-3 register-left">
-					<!-- <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/> -->
 					<h3>Welcome</h3>
-					<!-- <p>You are 30 seconds away from earning your own money!</p> -->
-					<!-- <input type="submit" name="" value="Login"/><br/> -->
 				</div>
 				<div class="col-md-9 register-right">
-
+					</ul>
 					<div class="tab-content" id="myTabContent">
 						<div class="tab-pane fade show active" id="home" role="tabpanel"
 							aria-labelledby="home-tab">
-							<h3 class="register-heading">Add user</h3>
+							<h3 class="register-heading">Add information</h3>
 							<div class="row register-form">
 								<div class="col-md-6">
 									<div class="form-group">
 										<input type="text" class="form-control"
-											placeholder="User Name *" value="" name="username" />
+											placeholder="User Name *" value=""
+											name="username" />
 									</div>
-									<div class="form-group">
-										<input type="password" class="form-control"
-											placeholder="Password *" value="" name="password" />
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control"
-											placeholder="Enter Email id" value="" name="email" />
-									</div>
-
-									<div class="form-group">
-										<div class="maxl">
-											<label class="radio inline"> <input type="radio"
-												name="gender" value="male" checked> <span>
-													Male </span>
-											</label> <label class="radio inline"> <input type="radio"
-												name="gender" value="female"> <span>Female </span>
-											</label>
-											
+									
 										</div>
 									</div>
 								</div>
+
 								<div class="col-md-6">
 									<div class="form-group">
 										<select class="form-control" name="role">
@@ -70,18 +52,19 @@
 									</div>
 									<div class="form-group">
 										<select class="form-control" name="question">
-											<option class="hidden" selected disabled>Please
-												select your Sequrity Question</option>
+											<option>please select question</option>
 											<option>What is your Birthdate?</option>
 											<option>What is Your old Phone Number</option>
 											<option>What is your Pet Name?</option>
 										</select>
 									</div>
+
 									<div class="form-group">
 										<input type="text" class="form-control"
-											placeholder="`Enter your Answer *" value="" name="answer" />
+											placeholder="`Enter your Answer *" value=""
+											name="answer" />
 									</div>
-									<input type="submit" class="btnRegister" value="Add user" />
+									<input type="submit" class="btnRegister" value="Reset password" />
 								</div>
 							</div>
 						</div>

@@ -14,13 +14,25 @@ public class User {
 	private String answer;
 	private String gender;
 	private String email;
+	private String isactive;
 	public User() {
 		// TODO Auto-generated constructor stub
 		
 		
 	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", role=" + role + ", question=" + question
+				+ ", answer=" + answer + ", gender=" + gender + ", email=" + email + ", isactive=" + isactive + "]";
+	}
+
+
+
 	public User(String username, String password, String role, String question, String answer, String gender,
-			String email) {
+			String email, String isactive) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -29,12 +41,11 @@ public class User {
 		this.answer = answer;
 		this.gender = gender;
 		this.email = email;
+		this.isactive = isactive;
 	}
-	@Override
-	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", role=" + role + ", question=" + question
-				+ ", answer=" + answer + ", gender=" + gender + ", email=" + email + "]";
-	}
+
+
+
 	public String getUsername() {
 		return username;
 	}
@@ -77,6 +88,11 @@ public class User {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public String getIsactive() {
+		return isactive;
 	}
-
+	public void setIsactive(String isactive) {
+		this.isactive = isactive;
+	}
 	
+}	

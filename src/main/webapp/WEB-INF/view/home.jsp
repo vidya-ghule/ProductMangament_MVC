@@ -6,6 +6,7 @@
     <title>Home</title>
     </head>
     <body>
+     <h4 style="color:red;">${count}</h4>
     <img class="img-fluid" alt="Image not found" src="/image4.jpg">
     </body>
 </html>

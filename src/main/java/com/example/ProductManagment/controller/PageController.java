@@ -20,5 +20,22 @@ public class PageController {
 			return "product";
 		}
 
-	
+		@RequestMapping(value = "/importUsersPage")
+		public String importUsersPage() {
+			return "importUsers";
+			
+		}
+		
+		@RequestMapping(value = "/importproductPage")
+		public String importproductPage() {
+			return "importProduct";
+			
+		}
+		@RequestMapping(value = "/forgotcont")
+		public String forgotcont() {
+			System.out.println("forgotcont");
+			return "forgotpass";
+			
+		}
+		
 }

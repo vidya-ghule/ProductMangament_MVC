@@ -22,7 +22,8 @@
                <td><c:out value="${product.productName}"></c:out></td>
                <td><c:out value="${product.productPrice}"></c:out></td>
                <td><c:out value="${product.productExpiryDate}"></c:out></td>
-            <td><a href="profile?username=${product.procudtId}">EDIT</a><a>DELETE</a></td>
+            <td><a href="getProduct?procudtId=${product.procudtId}">EDIT</a>
+            <a href="deleteProduct?procudtId=${product.procudtId}">DELETE</a></td>
           </tr>
           </c:forEach>
            </tbody>

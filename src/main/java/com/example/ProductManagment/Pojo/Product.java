@@ -33,8 +33,8 @@ import javax.persistence.Id;
 		}
 
 
-		public void setProcudtId(String procudtId) {
-			this.procudtId = procudtId;
+		public void setProcudtId(String d) {
+			this.procudtId = d;
 		}
 
 
@@ -53,8 +53,8 @@ import javax.persistence.Id;
 		}
 
 
-		public void setProductPrice(float productPrice) {
-			this.productPrice = productPrice;
+		public void setProductPrice(double d) {
+			this.productPrice = (float) d;
 		}
 
 
