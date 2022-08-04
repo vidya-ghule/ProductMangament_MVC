@@ -22,6 +22,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class EmailUtil {
 
+
+
 	/**
 	 * Utility method to send simple HTML email
 	 * @param session
